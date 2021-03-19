@@ -18,7 +18,9 @@ Maven is a code build tool which used to convert your code to an artifact. this 
      ```
 	
 1. Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
-[root@jenkins ~]# export MAVEN_HOME=/opt/maven/maven
+
+
+  [root@jenkins ~]# export MAVEN_HOME=/opt/maven/maven
 [root@jenkins ~]# export PATH=$PATH:${MAVEN_HOME}/bin
 
    ```
